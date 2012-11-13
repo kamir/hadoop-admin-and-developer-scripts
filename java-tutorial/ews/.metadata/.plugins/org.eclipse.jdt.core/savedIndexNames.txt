@@ -1,0 +1,26 @@
+INDEX VERSION 1.126+/home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/ews/.metadata/.plugins/org.eclipse.jdt.core
+4129474247.index
+2955869510.index
+2096803426.index
+1665833900.index
+1223459136.index
+1822142025.index
+460999589.index
+3059082024.index
+1030331909.index
+3681608580.index
+1477763141.index
+283607788.index
+385625898.index
+2900070075.index
+774220714.index
+3995260079.index
+281941516.index
+280366505.index
+725344591.index
+2132632458.index
+101432141.index
+276344170.index
+790352653.index
+3562156692.index
+2491811579.index

@@ -1,0 +1,4 @@
+#Tue Nov 13 17:02:41 CET 2012
+RUN_IN_BACKGROUND=true
+eclipse.preferences.version=1
+//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10

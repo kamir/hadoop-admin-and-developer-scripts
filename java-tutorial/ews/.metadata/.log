@@ -1,0 +1,304 @@
+!SESSION 2012-11-13 15:34:30.266 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:12.109
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:12.112
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:12.113
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:46.576
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-11-13 16:12:46.858
+!MESSAGE An internal error occurred during: "Importing Maven projects".
+!STACK 0
+java.lang.IllegalArgumentException: Unsupported IClasspathEntry kind=4
+	at org.eclipse.m2e.jdt.internal.ClasspathEntryDescriptor.toClasspathEntry(ClasspathEntryDescriptor.java:131)
+	at org.eclipse.m2e.jdt.internal.ClasspathDescriptor.getEntries(ClasspathDescriptor.java:134)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:141)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:109)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:414)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProject(ProjectConfigurationManager.java:240)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:156)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenImportWizard$1.doCreateMavenProjects(MavenImportWizard.java:171)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenImportWizard$3.runInWorkspace(MavenImportWizard.java:256)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:47.366
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-11-13 16:12:47.368
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2012-11-13 16:15:40.841 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-13 16:16:14.709
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-11-13 16:19:59.713
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2012-11-13 16:19:59.713
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2012-11-13 16:19:59.713
+!MESSAGE "Eclipse Platform" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.713
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE Software being installed: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE Software currently installed: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.713
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE CVS Team Provider UI 3.3.302.R36x_v20110203-1036 (org.eclipse.team.cvs.ui 3.3.302.R36x_v20110203-1036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE CVS Team Provider UI 3.3.301.R36x_v20100825-0800 (org.eclipse.team.cvs.ui 3.3.301.R36x_v20100825-0800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE From: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE To: org.eclipse.team.cvs.ui [3.3.301.R36x_v20100825-0800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE From: Eclipse CVS Client 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E (org.eclipse.cvs.feature.group 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE To: org.eclipse.team.cvs.ui [3.3.302.R36x_v20110203-1036]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE From: Eclipse Project SDK 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC (org.eclipse.sdk.feature.group 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.713
+!MESSAGE To: org.eclipse.cvs.feature.group [1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.714
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.714
+!MESSAGE From: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.714
+!MESSAGE To: org.eclipse.sdk.feature.group [3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-11-13 16:19:59.717
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2012-11-13 16:19:59.717
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2012-11-13 16:19:59.717
+!MESSAGE "Eclipse Platform" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.717
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE Software being installed: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE Software currently installed: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.717
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE CVS Team Provider UI 3.3.302.R36x_v20110203-1036 (org.eclipse.team.cvs.ui 3.3.302.R36x_v20110203-1036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE CVS Team Provider UI 3.3.301.R36x_v20100825-0800 (org.eclipse.team.cvs.ui 3.3.301.R36x_v20100825-0800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.717
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE From: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE To: org.eclipse.team.cvs.ui [3.3.301.R36x_v20100825-0800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.717
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE From: Eclipse CVS Client 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E (org.eclipse.cvs.feature.group 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE To: org.eclipse.team.cvs.ui [3.3.302.R36x_v20110203-1036]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.717
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE From: Eclipse Project SDK 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC (org.eclipse.sdk.feature.group 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.717
+!MESSAGE To: org.eclipse.cvs.feature.group [1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:19:59.718
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.718
+!MESSAGE From: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:19:59.718
+!MESSAGE To: org.eclipse.sdk.feature.group [3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-11-13 16:21:34.473
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2012-11-13 16:21:34.473
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2012-11-13 16:21:34.474
+!MESSAGE "Eclipse RCP" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.474
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE Software being installed: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE Software currently installed: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.474
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE Eclipse CVS Client 1.0.500.v201102101200 (org.eclipse.cvs 1.0.500.v201102101200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE Eclipse CVS Client 1.0.500.v20100414 (org.eclipse.cvs 1.0.500.v20100414)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.474
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE From: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.474
+!MESSAGE To: org.eclipse.cvs [1.0.500.v20100414]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.475
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE From: Eclipse CVS Client 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E (org.eclipse.cvs.feature.group 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE To: org.eclipse.cvs [1.0.500.v201102101200]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.475
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE From: Eclipse Project SDK 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC (org.eclipse.sdk.feature.group 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE To: org.eclipse.cvs.feature.group [1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.475
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE From: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.475
+!MESSAGE To: org.eclipse.sdk.feature.group [3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-11-13 16:21:34.478
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2012-11-13 16:21:34.478
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2012-11-13 16:21:34.478
+!MESSAGE "Eclipse RCP" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.478
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE Software being installed: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE Software currently installed: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.478
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE Eclipse CVS Client 1.0.500.v201102101200 (org.eclipse.cvs 1.0.500.v201102101200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE Eclipse CVS Client 1.0.500.v20100414 (org.eclipse.cvs 1.0.500.v20100414)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.478
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE From: Eclipse CVS Client 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911 (org.eclipse.cvs.feature.group 1.2.0.v20100427-7B77FKt90GE5h0NCO35T7A01911)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE To: org.eclipse.cvs [1.0.500.v20100414]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.478
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE From: Eclipse CVS Client 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E (org.eclipse.cvs.feature.group 1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.478
+!MESSAGE To: org.eclipse.cvs [1.0.500.v201102101200]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.478
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.479
+!MESSAGE From: Eclipse Project SDK 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC (org.eclipse.sdk.feature.group 3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.479
+!MESSAGE To: org.eclipse.cvs.feature.group [1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-11-13 16:21:34.479
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.479
+!MESSAGE From: Eclipse SDK 3.6.2.M20110210-1200 (org.eclipse.sdk.ide 3.6.2.M20110210-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-11-13 16:21:34.479
+!MESSAGE To: org.eclipse.sdk.feature.group [3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC]
+!SESSION 2012-11-13 16:33:02.729 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 4 2012-11-13 16:36:24.362
+!MESSAGE Invalid ZIP archive: pom.xml [in MR1a]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2524)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2282)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:162)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:255)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:190)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:89)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1244)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:102)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:131)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2518)
+	... 26 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2012-11-13 16:36:24.364
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:131)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2518)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2282)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:162)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:255)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:190)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:89)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1244)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:102)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2012-11-13 16:36:25.420
+!MESSAGE Taglib Index ZipException: /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/pom.xml error in opening zip file

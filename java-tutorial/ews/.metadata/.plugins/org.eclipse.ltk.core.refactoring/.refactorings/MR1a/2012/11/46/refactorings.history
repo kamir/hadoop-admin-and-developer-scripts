@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MR1a/src/main/java/CDHTRAINING&apos; to &apos;tut.mrunit&apos;" description="Rename resource &apos;CDHTRAINING&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/CDHTRAINING" name="tut.mrunit" stamp="1352819846329" updateReferences="true"/>
+</session>

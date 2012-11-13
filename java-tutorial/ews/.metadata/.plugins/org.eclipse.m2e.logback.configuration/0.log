@@ -1,0 +1,30 @@
+2012-11-13 16:11:55,163 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2012-11-13 16:11:55,242 [Worker-5] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:03,773 [ModalContext] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:03,995 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2012-11-13 16:12:04,128 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2012-11-13 16:12:04,324 [ModalContext] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:04,594 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.0/maven-site-plugin-3.0.jar
+2012-11-13 16:12:05,063 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.0/maven-site-plugin-3.0.jar
+2012-11-13 16:12:12,107 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2012-11-13 16:12:12,112 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2012-11-13 16:12:12,113 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+2012-11-13 16:12:24,855 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HadoopTRAINING:MR1a:1.0-SNAPSHOT @ /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/pom.xml.
+2012-11-13 16:12:24,861 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:28,560 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:31,106 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:33,744 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:35,667 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:37,710 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:39,888 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:42,090 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-11-13 16:12:46,576 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2012-11-13 16:12:46,817 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MR1a/src/main/java
+2012-11-13 16:12:46,817 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MR1a/src/test/java
+2012-11-13 16:12:47,123 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HadoopTRAINING:MR1a:1.0-SNAPSHOT @ /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/pom.xml.
+2012-11-13 16:12:47,365 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2012-11-13 16:12:47,366 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/src/main/resources
+2012-11-13 16:12:47,368 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2012-11-13 16:12:47,368 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/src/test/resources
+2012-11-13 16:12:47,681 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HadoopTRAINING:MR1a:1.0-SNAPSHOT @ /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/pom.xml.
+2012-11-13 16:14:26,497 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|http://repo.maven.apache.org/maven2 in 151339 ms
