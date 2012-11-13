@@ -1,0 +1,23 @@
+Source: https://github.com/klaussilveira/gitlist/issues/176
+=======
+
+Als root ausfuehren:
+
+
+1)
+yum install zlib-devel openssl-devel expat-devel gettext-devel curlpp perl cpio libcurl curl libcurl-devel
+
+2)
+wget http://git-core.googlecode.com/files/git-1.7.12.3.tar.gz
+
+3)
+tar xvfz git-1.7.12.3.tar.gz
+
+4)
+cd git-1.7.12.3
+
+5)
+make prefix=/usr/local all
+
+6)
+make prefix=/usr/local install
