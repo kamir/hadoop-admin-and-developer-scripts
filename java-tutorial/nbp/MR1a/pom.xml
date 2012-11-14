@@ -11,6 +11,7 @@
   <url>http://myproject.org</url>
 
   <properties>
+    <mahout.version>0.7-cdh4.1.2</mahout.version>
     <hadoop.version>2.0.0-mr1-cdh4.1.2</hadoop.version>
     <!--hadoop.version>0.20.2-cdh3u5</hadoop.version-->
   </properties>
@@ -58,6 +59,7 @@
       
       <plugin>
          <artifactId>maven-jar-plugin</artifactId>
+         <version>2.4</version>
          <configuration>
            <archive>
              <manifest>
@@ -68,7 +70,21 @@
            </archive>
          </configuration>
       </plugin>
-        
+
+    <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+                <execution>
+                    <phase>install</phase>
+                    <goals>
+                        <goal>copy-dependencies</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                    </configuration>
+                </execution>
+            </executions>
+    </plugin>
     </plugins>
   </build>
 
@@ -81,67 +97,76 @@
       <version>0.9.0</version>
       <scope>test</scope>
     </dependency >
--->    
-    <dependency>
-      <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-mrunit</artifactId>
-      <version>0.20.2-cdh3u5</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.8.2</version>
-      <scope>test</scope>
-    </dependency>
 
-    <dependency>
-      <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-core</artifactId>
-      <version>${hadoop.version}</version>
-      <scope>provided</scope>
-    </dependency>
+
+        -->    
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-core</artifactId>
+            <version>0.7</version>
+        </dependency>
     
-    <dependency>
-      <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-client</artifactId>
-      <version>${hadoop.version}</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-mrunit</artifactId>
+            <version>0.20.2-cdh3u5</version>
+            <scope>test</scope>
+        </dependency>
+    
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>${hadoop.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoop.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
   
-  <!-- WE USE TWO repositories as the MRUnit libs are required in the project -->
-  <repositories>
-    <repository>
-      <id>cloudera cdh</id> 
-      <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>cloudera MRUnit</id>
-      <url>https://repository.cloudera.com/content/repositories/releases</url> 
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <!--repository>
-      <id>typesafe</id>
-      <url>http://repo.typesafe.com/typesafe/releases/</url> 
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository-->
-  </repositories>
+    <!-- WE USE TWO repositories as the MRUnit libs are required in the project -->
+    <repositories>
+        <repository>
+            <id>cloudera cdh</id> 
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>cloudera MRUnit</id>
+            <url>https://repository.cloudera.com/content/repositories/releases</url> 
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <!--repository>
+          <id>typesafe</id>
+          <url>http://repo.typesafe.com/typesafe/releases/</url> 
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository-->
+    </repositories>
 </project>
 
