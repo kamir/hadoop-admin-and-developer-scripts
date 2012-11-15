@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ipaddr=$1
+segments=`echo $ipaddr | cut --delimiter=. --fields=4`
+if [ "$segments" -lt 128 ]; then
+    echo /rack-1
+else
+    echo /rack-2
+fi

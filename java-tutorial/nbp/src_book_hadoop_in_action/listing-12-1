@@ -1,0 +1,52 @@
+public class CountUserUrlStumbles {
+  public static class Map extends MapReduceBase
+      implements Mapper<ImmutableBytesWritable, RowResult,
+      Text, Text> {
+    @Override
+    public void map(ImmutableBytesWritable key,
+                    RowResult value,
+                    OutputCollector<Text, Text> output,
+                    Reporter reporter) throws IOException {
+      byte [] row = value.getRow();
+      int userid = StumbleUtils.UserIndex.getUserId(row);
+      int urlid = StumbleUtils.UserIndex.getUrlId(row);
+
+      Text one = new Text("1");
+      output.collect(new Text("U:" + Integer.toString(userid)), one);
+      output.collect(new Text("Url:" + Integer.toString(urlid)), one);
+    }
+  }
+
+  public static class Reduce extends MapReduceBase
+      implements Reducer<Text,Text,Text,Text> {
+    @Override
+    public void reduce(Text key,
+                       Iterator<Text> values,
+                       OutputCollector<Text, Text> output,
+                       Reporter reporter) throws IOException {
+      int count = 0;
+      while (values.hasNext()) {
+        values.next();
+        count++;
+      }
+      output.collect(key, new Text(Integer.toString(count)));
+    }
+  }
+
+  public static void main(String []args) throws IOException {
+    if (args.length < 2) {
+      System.out.println("Give me the name of the by-userid stumble table");
+      return;
+    }
+    JobConf job = new JobConf(CountUserUrlStumbles.class);
+    job.setInputFormat(TableInputFormat.class);
+    FileInputFormat.setInputPaths(job, args[0]);
+    job.setMapperClass(Map.class);
+    job.setReducerClass(Reduce.class);
+    job.setOutputFormat(TextOutputFormat.class);
+    TextOutputFormat.setOutputPath(job, new Path(args[1]));
+    job.setNumMapTasks(5000);
+    JobClient jc = new JobClient(job);
+    jc.submitJob(job);
+  }
+}

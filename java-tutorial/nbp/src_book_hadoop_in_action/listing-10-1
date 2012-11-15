@@ -1,0 +1,16 @@
+cite = load 'input/cite75_99.txt' using PigStorage(',') as (citing:int, cited:int);
+cite_grpd = group cite by citing;
+cite_grpd_dbl = foreach cite_grpd generate group, cite.cited as cited1, cite.cited as cited2;
+cocite = foreach cite_grpd_dbl generate flatten(cited1), flatten(cited2);
+cocite_fltrd = filter cocite by cited1 != cited2;
+cocite_grpd = group cocite_fltrd by *;
+cocite_cnt = foreach cocite_grpd generate group, COUNT(cocite_fltrd) as cnt;
+cocite_flat = foreach cocite_cnt generate flatten(group), cnt;
+cocite_cnt_grpd = group cocite_flat by cited1;
+cocite_bag = foreach cocite_cnt_grpd generate group, cocite_flat.(cited2, cnt);
+
+cocite_final = FOREACH cocite_cnt_grpd {
+    similar = FILTER cocite_flat BY cnt > 1;
+    GENERATE group, similar;
+}
+STORE cocite_final INTO 'output';

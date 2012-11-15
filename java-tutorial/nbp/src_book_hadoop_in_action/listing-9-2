@@ -1,0 +1,5 @@
+set JAVA_HOME = “C:\Program Files\Java\jdk1.6.0_08”
+set EC2_HOME = “C:\Program Files\Hadoop\aws\ec2-api-tools-1.3-30349”
+set PATH = %PATH%;%EC2_HOME%\bin;%HADOOP_HOME%\src\contrib\ec2\bin
+set EC2_PRIVATE_KEY = c:\ec2\pk-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem 
+set EC2_CERT = c:\ec2\cert-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem
