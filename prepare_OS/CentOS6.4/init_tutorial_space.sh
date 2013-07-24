@@ -9,27 +9,27 @@ echo ""
 echo "1.) Install GIT"
 echo "       found on: http://tecadmin.net/how-to-upgrade-git-version-1-7-10-on-centos-6/#"
 echo "" 
-#sudo rpm -i 'http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm'
-#sudp rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
-#sudo sed -i 's/enabled=0/enabled=1/g' /etc/yum.repos.d/rpmforge.repo
-#sudo yum clean all
-#sudo yum install git
+sudo rpm -i 'http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm'
+sudo rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
+sudo sed -i 's/enabled=0/enabled=1/g' /etc/yum.repos.d/rpmforge.repo
+sudo yum clean all
+sudo yum install git
 read goOn
 
 echo "" 
 echo "2.) Checkout the tutorial workspace."
 echo "" 
-#git clone https://github.com/kamir/hadoop-admin-and-developer-scripts
+git clone https://github.com/kamir/hadoop-admin-and-developer-scripts
 read goOn
 
 echo "" 
 echo "3.) Install Hadoop libraries."
 echo "" 
-#sudo yum install hadoop-client
-#sudo yum install hadoop-0.20-mapreduce
-#sudo yum install hive
-#sudo yum install pig
-#sudo yum install hbase
+sudo yum install hadoop-client
+sudo yum install hadoop-0.20-mapreduce
+sudo yum install hive
+sudo yum install pig
+sudo yum install hbase
 read goOn
 
 echo "" 
