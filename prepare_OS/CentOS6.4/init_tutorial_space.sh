@@ -2,6 +2,8 @@
 NOW=$(date +"%m-%d-%Y-%h-%s")
 FILE="tg1.$NOW"
 
+#sudo rm /etc/yum.repos.d/centos_base.repo
+
 echo "" 
 echo "" 
 echo "We assume, you have a connection to an EC2-cluster via our socks proxy."
