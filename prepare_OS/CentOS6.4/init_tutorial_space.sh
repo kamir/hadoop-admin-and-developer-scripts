@@ -1,5 +1,5 @@
 #!/bin/bash
-NOW=$(date +"%m-%d-%Y")
+NOW=$(date +"%m-%d-%Y-%h-%s")
 FILE="tg1.$NOW"
 
 echo "" 
@@ -48,7 +48,7 @@ read goOn
 
 echo "" 
 echo "6.) Now we should install Eclipse with Remote System Explorer."
-echo "" 
+echo ""
 echo "       http://git.eclipse.org/c/tcf/org.eclipse.tcf.git/plain/docs/TCF%20Getting%20Started.html"
 
 
