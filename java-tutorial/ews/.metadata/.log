@@ -302,3 +302,12 @@ java.util.zip.ZipException: error in opening zip file
 
 !ENTRY org.eclipse.jst.jsp.core 2 2 2012-11-13 16:36:25.420
 !MESSAGE Taglib Index ZipException: /home/kamir/bin/hadoop-admin-and-developer-scripts/java-tutorial/nbp/MR1a/pom.xml error in opening zip file
+!SESSION 2013-07-25 19:17:55.596 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-07-25 19:17:58.536
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

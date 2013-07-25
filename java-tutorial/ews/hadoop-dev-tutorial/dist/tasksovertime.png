@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"  standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+ width="1024" height="786" 
+ viewBox="0 0 1024 786"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 4.6 patchlevel 3 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="1024" height="786" fill="none"/>
+<defs>
+
+	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
+	<path id='gpPt0' stroke-width='0.222' stroke='currentColor' d='M-1,0 h2 M0,-1 v2'/>
+	<path id='gpPt1' stroke-width='0.222' stroke='currentColor' d='M-1,-1 L1,1 M1,-1 L-1,1'/>
+	<path id='gpPt2' stroke-width='0.222' stroke='currentColor' d='M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1'/>
+	<rect id='gpPt3' stroke-width='0.222' stroke='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<rect id='gpPt4' stroke-width='0.222' stroke='currentColor' fill='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<circle id='gpPt5' stroke-width='0.222' stroke='currentColor' cx='0' cy='0' r='1'/>
+	<use xlink:href='#gpPt5' id='gpPt6' fill='currentColor' stroke='none'/>
+	<path id='gpPt7' stroke-width='0.222' stroke='currentColor' d='M0,-1.33 L-1.33,0.67 L1.33,0.67 z'/>
+	<use xlink:href='#gpPt7' id='gpPt8' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt7' id='gpPt9' stroke='currentColor' transform='rotate(180)'/>
+	<use xlink:href='#gpPt9' id='gpPt10' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
+	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
+</defs>
+<g style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:white; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,728.4 L882.1,728.4  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,728.4 L80.9,728.4  h0.01'/>	<g transform="translate(63.6,732.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:end">
+		<text> 0</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,559.8 L882.1,559.8  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,559.8 L80.9,559.8  h0.01'/>	<g transform="translate(63.6,564.3)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:end">
+		<text> 0.5</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,391.2 L882.1,391.2  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,391.2 L80.9,391.2  h0.01'/>	<g transform="translate(63.6,395.7)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:end">
+		<text> 1</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,222.7 L882.1,222.7  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,222.7 L80.9,222.7  h0.01'/>	<g transform="translate(63.6,227.2)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:end">
+		<text> 1.5</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,54.1 L882.1,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,54.1 L80.9,54.1  h0.01'/>	<g transform="translate(63.6,58.6)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:end">
+		<text> 2</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M71.9,728.4 L71.9,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,728.4 L71.9,719.4  h0.01'/>	<g transform="translate(71.9,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text>-10</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M173.2,728.4 L173.2,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M173.2,728.4 L173.2,719.4  h0.01'/>	<g transform="translate(173.2,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 0</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M274.5,728.4 L274.5,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M274.5,728.4 L274.5,719.4  h0.01'/>	<g transform="translate(274.5,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 10</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M375.7,728.4 L375.7,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M375.7,728.4 L375.7,719.4  h0.01'/>	<g transform="translate(375.7,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 20</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M477.0,728.4 L477.0,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M477.0,728.4 L477.0,719.4  h0.01'/>	<g transform="translate(477.0,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 30</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M578.3,728.4 L578.3,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M578.3,728.4 L578.3,719.4  h0.01'/>	<g transform="translate(578.3,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 40</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M679.6,728.4 L679.6,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M679.6,728.4 L679.6,719.4  h0.01'/>	<g transform="translate(679.6,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 50</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M780.8,728.4 L780.8,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M780.8,728.4 L780.8,719.4  h0.01'/>	<g transform="translate(780.8,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 60</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:rgb(128, 128, 128); stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:0.20; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(192, 192, 192)' stroke-dasharray=' 2,4' class="gridline"  d='M882.1,728.4 L882.1,54.1  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:rgb(192, 192, 192); stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<path stroke='rgb(128, 128, 128)'  d='M882.1,728.4 L882.1,719.4  h0.01'/>	<g transform="translate(882.1,750.9)" style="stroke:none; fill:rgb(128,128,128); font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text> 70</text>
+	</g>
+	<path stroke='rgb(128, 128, 128)'  d='M71.9,54.1 L71.9,728.4 L882.1,728.4 M882.1,54.1 M71.9,54.1  h0.01'/>	<g transform="translate(17.6,391.3) rotate(270)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text>Number of Concurrently Executing Tasks</text>
+	</g>
+</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+	<g transform="translate(477.0,777.9)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text>Seconds</text>
+	</g>
+	<g transform="translate(477.0,31.6)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:middle">
+		<text>Running Tasks Over Time</text>
+	</g>
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
+<g style="fill:none; color:white; stroke:rgb(128, 128, 128); stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+	<g transform="translate(957.5,121.6)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:start">
+		<text>map</text>
+	</g>
+	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '907.0,121.6 949.2,121.6 949.2,112.6 907.0,112.6 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '282.0,728.4 283.8,728.4 283.8,54.0 282.0,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '292.2,728.4 294.0,728.4 294.0,54.0 292.2,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '302.3,728.4 304.1,728.4 304.1,54.0 302.3,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '312.4,728.4 314.2,728.4 314.2,54.0 312.4,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '322.6,728.4 324.3,728.4 324.3,54.0 322.6,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '332.7,728.4 334.5,728.4 334.5,54.0 332.7,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '342.8,728.4 344.6,728.4 344.6,54.0 342.8,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '352.9,728.4 354.7,728.4 354.7,54.0 352.9,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '363.1,728.4 364.9,728.4 364.9,54.0 363.1,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '373.2,728.4 375.0,728.4 375.0,54.0 373.2,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '383.3,728.4 385.1,728.4 385.1,54.0 383.3,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '393.4,728.4 395.2,728.4 395.2,54.0 393.4,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '403.6,728.4 405.4,728.4 405.4,54.0 403.6,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '413.7,728.4 415.5,728.4 415.5,54.0 413.7,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '423.8,728.4 425.6,728.4 425.6,54.0 423.8,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '434.0,728.4 435.7,728.4 435.7,54.0 434.0,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '444.1,728.4 445.9,728.4 445.9,54.0 444.1,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '454.2,728.4 456.0,728.4 456.0,54.0 454.2,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '464.3,728.4 466.1,728.4 466.1,54.0 464.3,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '474.5,728.4 476.3,728.4 476.3,54.0 474.5,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '484.6,728.4 486.4,728.4 486.4,54.0 484.6,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '494.7,728.4 496.5,728.4 496.5,54.0 494.7,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '504.9,728.4 506.6,728.4 506.6,54.0 504.9,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '515.0,728.4 516.8,728.4 516.8,54.0 515.0,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '525.1,728.4 526.9,728.4 526.9,54.0 525.1,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '535.2,728.4 537.0,728.4 537.0,54.0 535.2,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '545.4,728.4 547.1,728.4 547.1,54.0 545.4,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '555.5,728.4 557.3,728.4 557.3,54.0 555.5,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '565.6,728.4 567.4,728.4 567.4,54.0 565.6,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '575.7,728.4 577.5,728.4 577.5,54.0 575.7,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '585.9,728.4 587.7,728.4 587.7,54.0 585.9,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '596.0,728.4 597.8,728.4 597.8,54.0 596.0,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '606.1,728.4 607.9,728.4 607.9,54.0 606.1,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '616.3,728.4 618.0,728.4 618.0,54.0 616.3,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '626.4,728.4 628.2,728.4 628.2,54.0 626.4,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '636.5,728.4 638.3,728.4 638.3,54.0 636.5,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '646.6,728.4 648.4,728.4 648.4,54.0 646.6,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '656.8,728.4 658.6,728.4 658.6,54.0 656.8,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '666.9,728.4 668.7,728.4 668.7,54.0 666.9,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '677.0,728.4 678.8,728.4 678.8,54.0 677.0,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '687.1,728.4 688.9,728.4 688.9,54.0 687.1,54.0 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '697.3,728.4 699.1,728.4 699.1,391.1 697.3,391.1 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '707.4,728.4 709.2,728.4 709.2,391.1 707.4,391.1 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '717.5,728.4 719.3,728.4 719.3,391.1 717.5,391.1 '/>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '727.7,728.4 729.4,728.4 729.4,391.1 727.7,391.1 '/>
+	</g>
+</g>
+	</g>
+	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+	<g transform="translate(957.5,103.6)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:start">
+		<text>reduce</text>
+	</g>
+	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '907.0,103.6 949.2,103.6 949.2,94.6 907.0,94.6 '/>
+	</g>
+</g>
+	</g>
+	<g id="gnuplot_plot_3" ><title>gnuplot_plot_3</title>
+<g style="fill:none; color:blue; stroke:currentColor; stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+	<g transform="translate(957.5,85.6)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:start">
+		<text>shuffle</text>
+	</g>
+	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '907.0,85.6 949.2,85.6 949.2,76.6 907.0,76.6 '/>
+	</g>
+</g>
+	</g>
+	<g id="gnuplot_plot_4" ><title>gnuplot_plot_4</title>
+<g style="fill:none; color:cyan; stroke:currentColor; stroke-width:1.00; stroke-linecap:round; stroke-linejoin:round">
+	<g transform="translate(957.5,67.6)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:start">
+		<text>sort</text>
+	</g>
+	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'currentColor' fill-opacity = '0.750000' points = '907.0,67.6 949.2,67.6 949.2,58.6 907.0,58.6 '/>
+	</g>
+</g>
+	</g>
+<g style="fill:none; color:white; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:round; stroke-linejoin:round">
+</g>
+</g>
+</svg>
+
