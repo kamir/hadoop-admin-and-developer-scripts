@@ -2,7 +2,7 @@
 NOW=$(date +"%m-%d-%Y-%h-%s")
 FILE="tg1.$NOW"
 
-sudo rm /etc/yum.repos.d/centos_base.repo
+sudo rm /etc/yum.repos.d/centos-base.repo
 
 echo "" 
 echo "" 
