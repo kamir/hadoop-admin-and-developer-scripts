@@ -1,15 +1,19 @@
 #!/bin/bash
+#
+# will be used in some simple tests
+#
 NOW=$(date +"%m-%d-%Y-%h-%s")
 FILE="tg1.$NOW"
 
+#
+# cleanup the yum repository
+#
 sudo rm /etc/yum.repos.d/centos-base.repo
+sudo yum clean all
 
 echo "" 
-echo "" 
-echo "We assume, you have a connection to an EC2-cluster via our socks proxy."
-echo "" 
 echo "1.) Install GIT"
-echo "       found on: http://tecadmin.net/how-to-upgrade-git-version-1-7-10-on-centos-6/"
+echo "       (read more: http://tecadmin.net/how-to-upgrade-git-version-1-7-10-on-centos-6/)"
 echo " "
 echo "* Do it        : 1" 
 echo "* Jump to next : 0" 
