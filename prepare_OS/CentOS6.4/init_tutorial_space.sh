@@ -97,7 +97,7 @@ read goOn
 
 if [ $goOn -eq 1 ]
 then
-  ssh training@elephant hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples-2.0.0-mr1-cdh4.2.0.jar terasort $FILE sorted
+  ssh training@elephant hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples-2.0.0-mr1-cdh4.2.0.jar terasort $FILE "$FILE.sorted"
 else
   echo 'JUMP'
 fi
